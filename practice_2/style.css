@@ -1,0 +1,59 @@
+  
+body {
+    margin: 0;
+  }
+  
+  nav {
+    position: fixed;
+    height: 10vh;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .nav-main-color {
+    background-color: #34495e;
+  }
+  
+  .nav-alternate-color {
+    background-color: #9b59b6;
+  }
+  
+  section {
+    height: 100vh;
+    background-color: #1abc9c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+  }
+  
+  .trigger {
+    background-color: #3498db;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin: 0;
+    color: White;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1.25px;
+    animation: fadeIn ease-in-out 0.5s;
+    text-shadow: 3px 5px rgba(0, 0, 0, 0.692);
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateX(-800px);
+      letter-spacing: 0px;
+      /* transform: translateY(0px); */
+      text-shadow: 0px 0px black;
+    }
+  }
+  
+  /* @keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  } */
