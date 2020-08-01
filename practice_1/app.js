@@ -25,7 +25,7 @@ const renderSections = (num) => {
   });
 };
 
-renderSections(5).then((res) => console.log(res));
+renderSections(15).then((res) => console.log(res));
 
 const observer = new IntersectionObserver((entries, observer) => {
   entries.forEach((entry, index) => {
